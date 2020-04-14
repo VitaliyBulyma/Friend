@@ -10,3 +10,5 @@
   5. Clone repository, do not replace existing files(created by Composer)
   6. To run the application open index.php
   
+  Or visit live version at [VitaliyBulyma.com](http://vitaliybulyma.com/friend)
+  
