@@ -7,4 +7,6 @@
   3. Create a new directory , and in the command line run **composer require guzzlehttp/guzzle:~6.0**
   4. This will create the composer.json it will load the composer repositories and update the dependancies
       it will also generate autoload files.
+  5. Clone repository, do not replace existing files(created by Composer)
+  6. To run the application open index.php
   
