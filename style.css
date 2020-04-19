@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("fontawesome-all.min.css");
+/* Basic */
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    /*background: #F1F3FA;*/
+    background: #303238;
+    
+  }
+.wrapper{
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	/* border: 1px solid black; */
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	/* box-shadow: 0 10px 6px -6px #777; */
+	width: 60%;
+	max-width: 1200px;
+	border-radius: 20px;
+}
+.left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.userbuttons{
+	display: flex;
+	flex-direction: column;
+}
+
+.userpic{
+	width:260px;
+	border-radius: 50%;
+	margin: 10px;
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: #777777;
+	font-size: 20pt;
+	line-height: 1.75em;
+}
+hr { 
+	width:50%;
+	height:3px;
+	border:none; 
+	color:#3081af; 
+	background-color:#3081af;
+	text-align:center; 
+	margin: 0 auto; 
+}
+.saying{
+	margin: 20px;
+	padding: 10px;
+	
+}
+
+.intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	color: #777777;
+	font-size: 20pt;
+	line-height: 1.75em;
+	border-bottom: 4px solid tomato;
+	border-radius: 10px;
+}
+
+
+
+/* Button styling adapted from W3 Schools */
+button{
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #3081af;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	vertical-align:middle
+}
+button {
+	background-color: #4091bf;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.35), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.35);
+	text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+	color: #fff !important;
+	text-transform: uppercase;
+	cursor: pointer;
+	}
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
+ 
+@media screen and (max-width: 900px) {
+	
+	.wrapper {
+	  flex-direction: column;
+	  width:80%;
+	}
+  }
+
+@media screen and (max-width: 800px) {
+	
+	.wrapper {
+	  flex-direction: column;
+	  width:90%;
+	}
+	button{
+	    width:400px;
+	}
+  }
+  
+@media screen and (max-width: 700px) {
+	
+	.wrapper {
+	  flex-direction: column;
+	  width:96%;
+	 
+	}
+	button{
+	    width:600px;
+	}
+  }
+ 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+	.wrapper {
+	  flex-direction: column;
+	  width:96%;
+	  padding-top: 0;
+	  margin-top: 10px;
+
+	}
+	button{
+	    width:600px;
+	    height:200px;
+	}
+	.userpic{
+	width:480px;
+	border-radius: 50%;
+	margin: 10px;
+}
+p, .intro{
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: #777777;
+	font-size: 3vh;
+	line-height: 1.75em;
+}
+button{
+    font-size: 4vh;
+}
+
+}
+ 
