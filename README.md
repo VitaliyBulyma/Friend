@@ -1,5 +1,5 @@
 # "Make your own Friend" 
-  ## XML and Web Services Assignment - API integration Using Guzzle in PHP
+  ## API integration Using Guzzle in PHP
 
 ### How to use this Application
   1. Since this is a PHP based application, you need to have PHP installed (https://www.php.net/manual/en/install.php)
